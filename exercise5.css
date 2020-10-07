@@ -3,6 +3,12 @@
 #e5 .container {
     height: 500px;
     width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-around;
+
+
 }
 
 #e5 .item {

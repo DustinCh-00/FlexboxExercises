@@ -1,9 +1,13 @@
 /* Use display, flex-wrap, flex and justify-content to solve this */
 
-#e3 .container {
+#e3 .container { display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     
 }
 
 #e3 .item {
-    
+    flex-basis: 33%;
+    height: 100px;
 }
